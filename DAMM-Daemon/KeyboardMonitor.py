@@ -20,7 +20,7 @@ EVENT_SIZE = 24 if IS_64BIT else 16
 # Event types and codes
 EV_KEY = 1
 KEY_PRESS = 1
-TARGET_KEYCODE = 425
+TARGET_KEYCODE = 148
 
 class KeyboardMonitor:
     def __init__(self, target_keycode=TARGET_KEYCODE, command_to_run="/opt/damx/gui/DivAcerManagerMax", logger=None):

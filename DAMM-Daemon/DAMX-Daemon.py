@@ -1301,7 +1301,7 @@ class DAMXDaemon:
 
             # Initialize keyboard monitor early
             # self.keyboard_monitor = KeyboardMonitor(
-            #     target_keycode=425, 
+            #     target_keycode=148, 
             #     command_to_run="DAMX",  # Updated command
             #     logger=log
             # )
